@@ -1,0 +1,104 @@
+.main {
+    text-align: center;
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-item {
+    width: 25%;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+@media (max-width:320px) { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .card-item {
+        width: unset;
+    }
+    .main {
+        margin: 0;
+        display: unset;
+        flex-wrap: nowrap;
+        justify-content: unset;
+        align-items: unset;
+    }
+  
+  }
+  @media (max-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
+    .card-item {
+        width: unset;
+    }
+
+    .main {
+        margin: 0;
+        display: unset;
+        flex-wrap: nowrap;
+        justify-content: unset;
+        align-items: unset;
+      }
+  }
+  @media (max-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    .card-item {
+        width: unset;
+    }
+
+    .main {
+        margin: 0;
+        display: unset;
+        flex-wrap: nowrap;
+        justify-content: unset;
+        align-items: unset;
+      }
+  }
+  @media (max-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .card-item {
+        width: unset;
+    }
+
+    .main {
+        margin: 0;
+        display: unset;
+        flex-wrap: nowrap;
+        justify-content: unset;
+        align-items: unset;
+      }
+  }
+  @media (max-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+    .card-item {
+        width: unset;
+    }
+
+    .main {
+        margin: 0;
+        display: unset;
+        flex-wrap: nowrap;
+        justify-content: unset;
+        align-items: unset;
+      }
+  }
+
+  @media (max-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    /* .main {
+      margin: 0;
+      display: unset;
+      flex-wrap: nowrap;
+      justify-content: unset;
+      align-items: unset;
+    } */
+  }
+  
+  
+  
